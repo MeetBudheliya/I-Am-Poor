@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ugur-peker-AkX0_cZQ6PI-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="9PU-cx-smC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toppng.com-image-library-download-child-poverty-clipart-cartoon-poor-1557x2357" translatesAutoresizingMaskIntoConstraints="NO" id="6hs-0O-WDQ">
+                                <rect key="frame" x="57" y="516" width="300" height="380"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="380" id="CWY-jN-Uwk"/>
+                                    <constraint firstAttribute="width" constant="300" id="fKd-eC-pLf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give Me Some Money" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqk-sX-Ucr">
+                                <rect key="frame" x="38" y="471" width="338.5" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9PU-cx-smC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6hX-W3-rcx"/>
+                            <constraint firstAttribute="baseline" secondItem="9PU-cx-smC" secondAttribute="baseline" id="BFX-6l-Dbf"/>
+                            <constraint firstItem="9PU-cx-smC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="firstBaseline" id="C91-r1-HGR"/>
+                            <constraint firstItem="Lqk-sX-Ucr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YjP-e6-4DB"/>
+                            <constraint firstItem="6hs-0O-WDQ" firstAttribute="baseline" secondItem="8bC-Xf-vdC" secondAttribute="baseline" id="bgf-OR-Q3x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9PU-cx-smC" secondAttribute="trailing" id="ow7-EW-eYQ"/>
+                            <constraint firstItem="6hs-0O-WDQ" firstAttribute="top" secondItem="Lqk-sX-Ucr" secondAttribute="bottom" constant="1" id="v76-oy-eCH"/>
+                            <constraint firstItem="6hs-0O-WDQ" firstAttribute="centerX" secondItem="9PU-cx-smC" secondAttribute="centerX" id="x1m-L7-Lbj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65.217391304347828" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="toppng.com-image-library-download-child-poverty-clipart-cartoon-poor-1557x2357" width="1557" height="2357"/>
+        <image name="ugur-peker-AkX0_cZQ6PI-unsplash" width="3024" height="4032"/>
+    </resources>
+</document>
